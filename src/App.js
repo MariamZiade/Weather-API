@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import Search from "./components/Search";
-
+import WeatherItem from "./components/WeatherItem";
 import SayHi, { SayHello } from "./components/WeatherItem";
 import fakeWeatherData from "./fakeWeatherData.json";
-
 import "./App.css";
 
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Mariam and Omar"
+      // name: "Mariam and Omar"
     };
   }
 
@@ -21,8 +20,8 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <SayHi />
-        <SayHello color="black" name={this.state.name} />
+        {/* <SayHi />
+        <SayHello color="black" name={this.state.name} /> */}
         <Search handleInput={this.handleInputChange} />
       </div>
     );

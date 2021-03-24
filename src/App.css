@@ -20,6 +20,44 @@
 
 /* Current weather */
 
-div {
-  border: 5px solid red;
+
+* {
+  font-family: "Raleway", sans-serif;
 }
+
+
+div {
+  background-color:rgb(156, 206, 243);
+}
+
+button {
+  background-color:rgb(88, 121, 200);
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 2px;
+  outline: none;
+}
+
+input {
+  background-color:#769edb;
+  border: none;
+  padding: 5px 10px;
+  outline: none;
+  color: white;
+}
+
+
+.container {
+  width: 100%;
+    padding-top: 30px;
+    background-color: #d62291;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img {
+    width: 200px;
+    height: 300px;
+  }
